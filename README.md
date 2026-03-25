@@ -17,3 +17,23 @@ Performed exploratory data analysis on Bitcoin dataset:
 
 Key Insight:
 Bitcoin is highly volatile but shows long-term growth patterns.
+
+## Day 3 — Data Visualization
+
+In this stage, I created visual representations of Bitcoin price data to better understand trends and patterns.
+
+### Visualizations
+- Price trend over time
+- Moving averages (7-day & 30-day)
+- Volatility (returns)
+- Price distribution
+- Log-scale price growth
+
+### Insights
+- Bitcoin shows exponential growth over time
+- High volatility indicates market instability
+- Moving averages help identify trend direction
+
+### Tools
+- Matplotlib
+- Pandas
