@@ -53,3 +53,25 @@ To prepare structured data for predictive modeling.
 
 ### Tools
 - Pandas
+
+## Day 5 — Machine Learning Modeling
+
+In this stage, I built a machine learning model to predict Bitcoin prices.
+
+### Model
+- Linear Regression
+
+### Features Used
+- Lag features (previous prices)
+- Moving averages (MA7, MA30)
+- Volatility
+
+### Objective
+Predict Bitcoin closing price based on historical patterns.
+
+### Result
+The model shows a reasonable ability to follow price trends.
+
+### Tools
+- Scikit-learn
+- Pandas
