@@ -75,3 +75,22 @@ The model shows a reasonable ability to follow price trends.
 ### Tools
 - Scikit-learn
 - Pandas
+
+## Day 6 — Model Evaluation
+
+In this stage, I evaluated the performance of the machine learning model.
+
+### Metrics Used
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R2 Score
+
+### Results
+The model shows reasonable performance but still has prediction errors due to high market volatility.
+
+### Insight
+Bitcoin is highly unpredictable, making accurate prediction challenging.
+
+### Tools
+- Scikit-learn
+- NumPy
