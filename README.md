@@ -94,3 +94,55 @@ Bitcoin is highly unpredictable, making accurate prediction challenging.
 ### Tools
 - Scikit-learn
 - NumPy
+
+## Day 7 — Deployment (Streamlit App)
+
+In this stage, I deployed the machine learning model into an interactive web application using Streamlit.
+
+---
+
+## Objective
+
+To transform the trained machine learning model into a usable application where users can input data and receive real-time Bitcoin price predictions.
+
+---
+
+## Application Overview
+
+The app allows users to input key financial features:
+
+- Lag 1 (previous day price)
+- Lag 2 (2 days ago)
+- Lag 3 (3 days ago)
+- Moving Average (7 days)
+- Moving Average (30 days)
+- Volatility
+
+Based on these inputs, the model predicts the Bitcoin closing price.
+
+---
+
+## How It Works
+
+1. Load trained model (`model.pkl`)
+2. Take user input via Streamlit UI
+3. Convert input into model format
+4. Generate prediction using the model
+5. Display predicted price
+
+---
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Scikit-learn
+- Pickle
+
+---
+
+## How to Run
+
+### 1. Open terminal in project directory
+```bash
+cd 7-days-data-science-challenge
