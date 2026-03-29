@@ -1,0 +1,132 @@
+# LAPORAN PROJECT DATA SCIENCE
+
+## Bitcoin Price Prediction (7 Days Challenge)
+
+---
+
+## 1. Pendahuluan
+
+Pada proyek ini dilakukan pengolahan data Bitcoin menggunakan pendekatan Data Science dan Machine Learning untuk memahami pola pergerakan harga serta membangun sistem prediksi harga. Proyek ini terdiri dari 7 tahapan utama, mulai dari pembersihan data hingga deployment aplikasi.
+
+---
+
+## 2. Day 1 — Data Cleaning
+
+Tahap pertama adalah pembersihan data (data cleaning). Data yang digunakan merupakan data historis Bitcoin yang masih dalam kondisi mentah dan belum siap digunakan untuk analisis.
+
+Pada tahap ini dilakukan beberapa proses, yaitu:
+
+* Mengubah kolom timestamp menjadi format datetime
+* Mengurutkan data berdasarkan waktu
+* Menangani missing value menggunakan metode forward fill
+* Menghapus data duplikat
+* Menjadikan timestamp sebagai index
+
+Tujuan dari tahap ini adalah menghasilkan dataset yang bersih, terstruktur, dan siap untuk dianalisis lebih lanjut.
+
+---
+
+## 3. Day 2 — Exploratory Data Analysis (EDA)
+
+Tahap kedua adalah eksplorasi data untuk memahami karakteristik dataset.
+
+Kegiatan yang dilakukan meliputi:
+
+* Visualisasi pergerakan harga Bitcoin
+* Resampling data menjadi data harian
+* Analisis statistik deskriptif
+* Perhitungan return (perubahan harga)
+
+Melalui tahap ini diperoleh pemahaman mengenai tren harga Bitcoin, serta tingkat volatilitas yang tinggi.
+
+---
+
+## 4. Day 3 — Data Visualization
+
+Tahap ketiga berfokus pada visualisasi data untuk menyampaikan informasi secara lebih jelas.
+
+Visualisasi yang dibuat antara lain:
+
+* Grafik tren harga Bitcoin
+* Moving average (MA7 dan MA30)
+* Grafik volatilitas (returns)
+* Distribusi harga
+
+Tujuan dari tahap ini adalah menyajikan data dalam bentuk visual sehingga lebih mudah dipahami dan dapat digunakan sebagai dasar pengambilan keputusan.
+
+---
+
+## 5. Day 4 — Feature Engineering
+
+Pada tahap ini dilakukan transformasi data menjadi fitur yang dapat digunakan oleh model machine learning.
+
+Fitur yang dibuat meliputi:
+
+* Return (perubahan harga harian)
+* Moving average (MA7 dan MA30)
+* Lag features (harga pada hari sebelumnya)
+* Volatility (standar deviasi)
+
+Feature engineering sangat penting karena model machine learning membutuhkan data dalam bentuk numerik yang merepresentasikan pola.
+
+---
+
+## 6. Day 5 — Machine Learning Modeling
+
+Tahap kelima adalah pembangunan model machine learning untuk melakukan prediksi harga Bitcoin.
+
+Model yang digunakan adalah:
+
+* Linear Regression
+
+Langkah-langkah yang dilakukan:
+
+* Menentukan fitur (X) dan target (y)
+* Membagi data menjadi data training dan testing
+* Melatih model menggunakan data training
+* Melakukan prediksi pada data testing
+
+Model ini digunakan sebagai baseline untuk memahami hubungan antara fitur dan harga Bitcoin.
+
+---
+
+## 7. Day 6 — Model Evaluation
+
+Pada tahap ini dilakukan evaluasi terhadap performa model yang telah dibuat.
+
+Metode evaluasi yang digunakan:
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+Evaluasi ini bertujuan untuk mengetahui tingkat akurasi model serta mengukur seberapa besar kesalahan prediksi yang dihasilkan.
+
+---
+
+## 8. Day 7 — Deployment
+
+Tahap terakhir adalah deployment model ke dalam bentuk aplikasi menggunakan Streamlit.
+
+Fitur aplikasi:
+
+* Input data oleh pengguna
+* Prediksi harga Bitcoin secara real-time
+* Tampilan sederhana dan interaktif
+
+Dengan deployment ini, model machine learning dapat digunakan secara langsung oleh pengguna tanpa perlu menjalankan kode secara manual.
+
+---
+
+## 9. Kesimpulan
+
+Proyek ini menunjukkan alur lengkap proses data science, mulai dari data mentah hingga menjadi aplikasi yang dapat digunakan.
+
+Beberapa poin penting yang diperoleh:
+
+* Data Bitcoin memiliki volatilitas tinggi
+* Model machine learning dapat membantu memprediksi tren
+* Proses data science membutuhkan tahapan yang sistematis
+
+Proyek ini dapat dikembangkan lebih lanjut dengan menggunakan model yang lebih kompleks dan integrasi data real-time.
+
