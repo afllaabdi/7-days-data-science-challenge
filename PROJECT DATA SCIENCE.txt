@@ -1,5 +1,3 @@
-# LAPORAN PROJECT DATA SCIENCE
-
 ## Bitcoin Price Prediction (7 Days Challenge)
 
 ---
